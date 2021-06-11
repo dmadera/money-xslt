@@ -1,0 +1,48 @@
+System Volume Information
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+z-assets/input/*
+z-assets/output/*
+z-assets/exportsklad/input/*
+z-assets/exportsklad/output/*
+z-assets/exportsklad/vdosplus/run.bat
+z-assets/exportsklad/TMP
+
+z-assets/exportin/assets/WinSCP.ini
+z-assets/exportin/assets/passpemasklad
+z-assets/exportin/assets/passlipasklad
+z-assets/exportin/*.log
+
+todo
+tmp/
