@@ -15,7 +15,7 @@
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/bin/Debug/net5.0/money-xslt.dll",
             //"args": ["${workspaceFolder}/z-assets/input", "${workspaceFolder}/z-assets/output"],
-            "args": ["${workspaceFolder}/assets/input.xml", "${workspaceFolder}/assets/template.xslt", "${workspaceFolder}/tmp/output.csv"],
+            "args": ["${workspaceFolder}/money-pohoda-fv/assets/input.xml", "${workspaceFolder}/money-pohoda-fv/money-pohoda-fv.xslt", "${workspaceFolder}/tmp/output.xml"],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",

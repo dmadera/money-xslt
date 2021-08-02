@@ -36,6 +36,18 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "validate-money-pohoda-fv",
+            "command": "xmllint",
+            "type": "process",
+            "args": [
+                "--schema",
+                "${workspaceFolder}/money-pohoda-fv/assets/pohoda-schema/data.xsd",
+                "${workspaceFolder}/tmp/output.xml",
+                "--noout"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
