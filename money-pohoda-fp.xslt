@@ -76,18 +76,18 @@
                                 <xsl:choose>
                                     <xsl:when test="ZapornyPohyb = 'False'">
                                         <typ:priceNone><xsl:value-of select="DPH0/Zaklad" /></typ:priceNone>
-                                        <typ:price3><xsl:value-of select="DPH1/Zaklad" /></typ:price3>
-                                        <typ:price3VAT><xsl:value-of select="DPH1/Dan" /></typ:price3VAT>
-                                        <typ:price3Sum><xsl:value-of select="DPH1/Celkem" /></typ:price3Sum>
+                                        <typ:priceLow><xsl:value-of select="DPH1/Zaklad" /></typ:priceLow>
+                                        <typ:priceLowVAT><xsl:value-of select="DPH1/Dan" /></typ:priceLowVAT>
+                                        <typ:priceLowSum><xsl:value-of select="DPH1/Celkem" /></typ:priceLowSum>
                                         <typ:priceHigh><xsl:value-of select="DPH2/Zaklad" /></typ:priceHigh>
                                         <typ:priceHighVAT><xsl:value-of select="DPH2/Dan" /></typ:priceHighVAT>
                                         <typ:priceHighSum><xsl:value-of select="DPH2/Celkem" /></typ:priceHighSum>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <typ:priceNone><xsl:value-of select="DPH0/Zaklad * -1" /></typ:priceNone>
-                                        <typ:price3><xsl:value-of select="DPH1/Zaklad * -1" /></typ:price3>
-                                        <typ:price3VAT><xsl:value-of select="DPH1/Dan * -1" /></typ:price3VAT>
-                                        <typ:price3Sum><xsl:value-of select="DPH1/Celkem * -1" /></typ:price3Sum>
+                                        <typ:priceLow><xsl:value-of select="DPH1/Zaklad * -1" /></typ:priceLow>
+                                        <typ:priceLowVAT><xsl:value-of select="DPH1/Dan * -1" /></typ:priceLowVAT>
+                                        <typ:priceLowSum><xsl:value-of select="DPH1/Celkem * -1" /></typ:priceLowSum>
                                         <typ:priceHigh><xsl:value-of select="DPH2/Zaklad * -1" /></typ:priceHigh>
                                         <typ:priceHighVAT><xsl:value-of select="DPH2/Dan * -1" /></typ:priceHighVAT>
                                         <typ:priceHighSum><xsl:value-of select="DPH2/Celkem * -1" /></typ:priceHighSum>
