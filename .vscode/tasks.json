@@ -2,52 +2,58 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
-            "command": "dotnet",
+            "label": "money-pohoda-fv-build",
+            "command": "xsltproc",
             "type": "process",
             "args": [
-                "build",
-                "${workspaceFolder}/money-xslt.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--output",
+                "${workspaceFolder}/money-pohoda-fv/output.xml",
+                "${workspaceFolder}/money-pohoda-fv.xslt",
+                "${workspaceFolder}/money-pohoda-fv/input.xml"
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": []
         },
         {
-            "label": "publish",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "publish",
-                "-r", "win-x64",
-                "-p:PublishSingleFile=true"         
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "watch",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
-                "run",
-                "${workspaceFolder}/money-xslt.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "validate-money-pohoda-fv",
+            "label": "money-pohoda-fv",
             "command": "xmllint",
             "type": "process",
             "args": [
                 "--schema",
                 "${workspaceFolder}/money-pohoda-fv/assets/pohoda-schema/data.xsd",
-                "${workspaceFolder}/tmp/output.xml",
+                "${workspaceFolder}/money-pohoda-fv/output.xml",
                 "--noout"
             ],
-            "problemMatcher": "$msCompile"
+            "dependsOn": [
+                "money-pohoda-fv-build"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "money-pohoda-fp-build",
+            "command": "xsltproc",
+            "type": "process",
+            "args": [
+                "--output",
+                "${workspaceFolder}/money-pohoda-fp/output.xml",
+                "${workspaceFolder}/money-pohoda-fp.xslt",
+                "${workspaceFolder}/money-pohoda-fp/input.xml"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "money-pohoda-fp",
+            "command": "xmllint",
+            "type": "process",
+            "args": [
+                "--schema",
+                "${workspaceFolder}/money-pohoda-fv/assets/pohoda-schema/data.xsd",
+                "${workspaceFolder}/money-pohoda-fp/output.xml",
+                "--noout"
+            ],
+            "dependsOn": [
+                "money-pohoda-fp-build"
+            ],
+            "problemMatcher": []
         }
     ]
 }

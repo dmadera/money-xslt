@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="2.0" 
+<xsl:stylesheet version="1.0" 
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xsl:decimal-format name="cs" decimal-separator="," grouping-separator=" " />
     <xsl:template match="S5Data/FakturaVydanaList">
-        <dat:dataPack id="{generate-id(/)}" ico="46713301" application="ImportMoneyFV" version = "2.0" note="Import FA"        
+        <dat:dataPack id="{generate-id(/)}" ico="46713301" application="Money S4" version = "2.0" note="Import faktur vydaných"        
                       xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"        
                       xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"        
                       xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" >
@@ -16,13 +16,17 @@
                             <xsl:choose>
                                 <xsl:when test="ZapornyPohyb = 'False'">
                                     <inv:invoiceType>issuedInvoice</inv:invoiceType>
+                                    <inv:text>Fakturujeme Vám za zboží dle vaší objednávky</inv:text>
+                                    <inv:originalDocument><xsl:value-of select="OdkazNaDoklad"/></inv:originalDocument>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <inv:invoiceType>issuedCorrectiveTax</inv:invoiceType>
                                     <inv:originalDocumentNumber>
                                         <xsl:value-of select="PuvodniDoklad"/>
                                     </inv:originalDocumentNumber>
-                                </xsl:otherwise>
+                                    <inv:text>Dobropis k faktuře <xsl:value-of select="PuvodniDoklad"/></inv:text>
+                                    <inv:originalDocument><xsl:value-of select="OdkazNaDoklad"/></inv:originalDocument>
+                                </xsl:otherwise>        
                             </xsl:choose>
                             <inv:number>
                                 <typ:numberRequested>
@@ -38,7 +42,12 @@
                                 <inv:centre>
                                     <typ:ids>NP</typ:ids>
                                 </inv:centre>
-                            </xsl:if> 
+                            </xsl:if>
+                            <xsl:if test="Cinnost/Kod = 'S_FA'">
+                                <inv:activity>
+                                    <typ:ids>SFa</typ:ids>
+                                </inv:activity>
+                            </xsl:if>
                             <inv:accounting>
                                 <typ:ids>Zboží</typ:ids>
                             </inv:accounting>
@@ -75,17 +84,16 @@
                                     </typ:VATPayerType>
                                 </typ:address>
                             </inv:partnerIdentity>
-                            <inv:text>Fakturujeme Vám za zboží dle vaší objednávky</inv:text>
                             <inv:paymentType>
                                 <typ:ids>
                                     <xsl:choose>
-                                        <xsl:when test="ZpusobPlatby/Kod = 'P'">Převod</xsl:when>
-                                        <xsl:when test="ZpusobPlatby/Kod = 'H'">Hotovost</xsl:when>
-                                        <xsl:when test="ZpusobPlatby/Kod = 'K'">Platební karta</xsl:when>
-                                        <xsl:otherwise></xsl:otherwise>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'P'">Příkazem</xsl:when>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'H'">hotově</xsl:when>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'K'">plat.kartou</xsl:when>
+                                        <xsl:otherwise>Převod</xsl:otherwise>
                                     </xsl:choose>
                                 </typ:ids>
-                            </inv:paymentType>
+                            </inv:paymentType>                            
                         </inv:invoiceHeader>
                         <inv:invoiceDetail>
                             <xsl:if test="DPH2/Zaklad > 0">
@@ -94,10 +102,20 @@
                                     <inv:quantity>1</inv:quantity>
                                     <inv:rateVAT>high</inv:rateVAT>
                                     <inv:homeCurrency>
-                                        <typ:unitPrice><xsl:value-of select="DPH2/Zaklad" /></typ:unitPrice>
-                                        <typ:price><xsl:value-of select="DPH2/Zaklad" /></typ:price>
-                                        <typ:priceVAT><xsl:value-of select="DPH2/Dan" /></typ:priceVAT>
-                                        <typ:priceSum><xsl:value-of select="DPH2/Celkem" /></typ:priceSum>
+                                    <xsl:choose>
+                                        <xsl:when test="ZapornyPohyb = 'False'">
+                                            <typ:unitPrice><xsl:value-of select="DPH2/Zaklad" /></typ:unitPrice>
+                                            <typ:price><xsl:value-of select="DPH2/Zaklad" /></typ:price>
+                                            <typ:priceVAT><xsl:value-of select="DPH2/Dan" /></typ:priceVAT>
+                                            <typ:priceSum><xsl:value-of select="DPH2/Celkem" /></typ:priceSum>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <typ:unitPrice><xsl:value-of select="DPH2/Zaklad * -1" /></typ:unitPrice>
+                                            <typ:price><xsl:value-of select="DPH2/Zaklad * -1" /></typ:price>
+                                            <typ:priceVAT><xsl:value-of select="DPH2/Dan * -1" /></typ:priceVAT>
+                                            <typ:priceSum><xsl:value-of select="DPH2/Celkem * -1" /></typ:priceSum>
+                                        </xsl:otherwise>        
+                                    </xsl:choose>
                                     </inv:homeCurrency>
                                     <inv:classificationVAT>
                                         <typ:ids>UD</typ:ids>
@@ -106,14 +124,24 @@
                             </xsl:if>
                             <xsl:if test="DPH1/Zaklad > 0">
                                 <inv:invoiceItem>
-                                    <inv:text>Zboží v 15% sazbě DPH</inv:text>
+                                    <inv:text>Zboží v 10% sazbě DPH</inv:text>
                                     <inv:quantity>1</inv:quantity>
                                     <inv:rateVAT>low</inv:rateVAT>
                                     <inv:homeCurrency>
-                                        <typ:unitPrice><xsl:value-of select="DPH1/Zaklad" /></typ:unitPrice>
-                                        <typ:price><xsl:value-of select="DPH1/Zaklad" /></typ:price>
-                                        <typ:priceVAT><xsl:value-of select="DPH1/Dan" /></typ:priceVAT>
-                                        <typ:priceSum><xsl:value-of select="DPH1/Celkem" /></typ:priceSum>
+                                    <xsl:choose>
+                                        <xsl:when test="ZapornyPohyb = 'False'">
+                                            <typ:unitPrice><xsl:value-of select="DPH1/Zaklad" /></typ:unitPrice>
+                                            <typ:price><xsl:value-of select="DPH1/Zaklad" /></typ:price>
+                                            <typ:priceVAT><xsl:value-of select="DPH1/Dan" /></typ:priceVAT>
+                                            <typ:priceSum><xsl:value-of select="DPH1/Celkem" /></typ:priceSum>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <typ:unitPrice><xsl:value-of select="DPH1/Zaklad * -1" /></typ:unitPrice>
+                                            <typ:price><xsl:value-of select="DPH1/Zaklad * -1" /></typ:price>
+                                            <typ:priceVAT><xsl:value-of select="DPH1/Dan * -1" /></typ:priceVAT>
+                                            <typ:priceSum><xsl:value-of select="DPH1/Celkem * -1" /></typ:priceSum>
+                                        </xsl:otherwise>  
+                                    </xsl:choose>    
                                     </inv:homeCurrency>
                                     <inv:classificationVAT>
                                         <typ:ids>UD</typ:ids>
@@ -126,10 +154,20 @@
                                     <inv:quantity>1</inv:quantity>
                                     <inv:rateVAT>none</inv:rateVAT>
                                     <inv:homeCurrency>
-                                        <typ:unitPrice><xsl:value-of select="DPH/Zaklad" /></typ:unitPrice>
-                                        <typ:price><xsl:value-of select="DPH/Zaklad" /></typ:price>
-                                        <typ:priceVAT><xsl:value-of select="DPH/Dan" /></typ:priceVAT>
-                                        <typ:priceSum><xsl:value-of select="DPH/Celkem" /></typ:priceSum>
+                                        <xsl:choose>
+                                            <xsl:when test="(../../ZapornyPohyb = 'False' and Vratka = 'False') or (../../ZapornyPohyb = 'True' and Vratka = 'True') ">
+                                                <typ:unitPrice><xsl:value-of select="DPH/Zaklad" /></typ:unitPrice>
+                                                <typ:price><xsl:value-of select="DPH/Zaklad" /></typ:price>
+                                                <typ:priceVAT><xsl:value-of select="DPH/Dan" /></typ:priceVAT>
+                                                <typ:priceSum><xsl:value-of select="DPH/Celkem" /></typ:priceSum>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <typ:unitPrice><xsl:value-of select="DPH/Zaklad * -1" /></typ:unitPrice>
+                                                <typ:price><xsl:value-of select="DPH/Zaklad * -1" /></typ:price>
+                                                <typ:priceVAT><xsl:value-of select="DPH/Dan * -1" /></typ:priceVAT>
+                                                <typ:priceSum><xsl:value-of select="DPH/Celkem * -1" /></typ:priceSum>
+                                            </xsl:otherwise>  
+                                        </xsl:choose>
                                     </inv:homeCurrency>
                                     <inv:classificationVAT>
                                         <typ:ids>UNost</typ:ids>
@@ -142,10 +180,20 @@
                                     <inv:quantity>1</inv:quantity>
                                     <inv:rateVAT>none</inv:rateVAT>
                                     <inv:homeCurrency>
-                                        <typ:unitPrice><xsl:value-of select="DPH/Zaklad" /></typ:unitPrice>
-                                        <typ:price><xsl:value-of select="DPH/Zaklad" /></typ:price>
-                                        <typ:priceVAT><xsl:value-of select="DPH/Dan" /></typ:priceVAT>
-                                        <typ:priceSum><xsl:value-of select="DPH/Celkem" /></typ:priceSum>
+                                        <xsl:choose>
+                                            <xsl:when test="(../../ZapornyPohyb = 'False' and Vratka = 'False') or (../../ZapornyPohyb = 'True' and Vratka = 'True') ">
+                                                <typ:unitPrice><xsl:value-of select="DPH/Zaklad" /></typ:unitPrice>
+                                                <typ:price><xsl:value-of select="DPH/Zaklad" /></typ:price>
+                                                <typ:priceVAT><xsl:value-of select="DPH/Dan" /></typ:priceVAT>
+                                                <typ:priceSum><xsl:value-of select="DPH/Celkem" /></typ:priceSum>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <typ:unitPrice><xsl:value-of select="DPH/Zaklad * -1" /></typ:unitPrice>
+                                                <typ:price><xsl:value-of select="DPH/Zaklad * -1" /></typ:price>
+                                                <typ:priceVAT><xsl:value-of select="DPH/Dan * -1" /></typ:priceVAT>
+                                                <typ:priceSum><xsl:value-of select="DPH/Celkem * -1" /></typ:priceSum>
+                                            </xsl:otherwise>  
+                                        </xsl:choose>
                                     </inv:homeCurrency>
                                     <inv:classificationVAT>
                                         <typ:ids>UDpdp</typ:ids>
@@ -155,13 +203,26 @@
                         </inv:invoiceDetail>
                         <inv:invoiceSummary>
                             <inv:homeCurrency>
-                                <typ:priceNone><xsl:value-of select="DPH0/Zaklad" /></typ:priceNone>
-                                <typ:priceLow><xsl:value-of select="DPH1/Zaklad" /></typ:priceLow>
-                                <typ:priceLowVAT><xsl:value-of select="DPH1/Dan" /></typ:priceLowVAT>
-                                <typ:priceLowSum><xsl:value-of select="DPH1/Celkem" /></typ:priceLowSum>
-                                <typ:priceHigh><xsl:value-of select="DPH2/Zaklad" /></typ:priceHigh>
-                                <typ:priceHighVAT><xsl:value-of select="DPH2/Dan" /></typ:priceHighVAT>
-                                <typ:priceHighSum><xsl:value-of select="DPH2/Celkem" /></typ:priceHighSum>
+                                <xsl:choose>
+                                    <xsl:when test="ZapornyPohyb = 'False'">
+                                        <typ:priceNone><xsl:value-of select="DPH0/Zaklad" /></typ:priceNone>
+                                        <typ:price3><xsl:value-of select="DPH1/Zaklad" /></typ:price3>
+                                        <typ:price3VAT><xsl:value-of select="DPH1/Dan" /></typ:price3VAT>
+                                        <typ:price3Sum><xsl:value-of select="DPH1/Celkem" /></typ:price3Sum>
+                                        <typ:priceHigh><xsl:value-of select="DPH2/Zaklad" /></typ:priceHigh>
+                                        <typ:priceHighVAT><xsl:value-of select="DPH2/Dan" /></typ:priceHighVAT>
+                                        <typ:priceHighSum><xsl:value-of select="DPH2/Celkem" /></typ:priceHighSum>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <typ:priceNone><xsl:value-of select="DPH0/Zaklad * -1" /></typ:priceNone>
+                                        <typ:price3><xsl:value-of select="DPH1/Zaklad * -1" /></typ:price3>
+                                        <typ:price3VAT><xsl:value-of select="DPH1/Dan * -1" /></typ:price3VAT>
+                                        <typ:price3Sum><xsl:value-of select="DPH1/Celkem * -1" /></typ:price3Sum>
+                                        <typ:priceHigh><xsl:value-of select="DPH2/Zaklad * -1" /></typ:priceHigh>
+                                        <typ:priceHighVAT><xsl:value-of select="DPH2/Dan * -1" /></typ:priceHighVAT>
+                                        <typ:priceHighSum><xsl:value-of select="DPH2/Celkem * -1" /></typ:priceHighSum>
+                                    </xsl:otherwise>  
+                                </xsl:choose>  
                                 <typ:round>
                                     <typ:priceRound><xsl:value-of select="Korekce0/Celkem" /></typ:priceRound>
                                 </typ:round>

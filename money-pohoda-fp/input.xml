@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<S5Data>
+  <FakturaPrijataList>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="0958466e-db15-4dcc-b53a-8ed593b1e214">
+      <CisloDokladu>FP2100076</CisloDokladu>
+      <DatumPlneni>2021-07-26T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-09T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-26T00:00:00</DatumVystaveni>
+      <DIC>CZ24670791</DIC>
+      <OdkazNaDoklad>2100693</OdkazNaDoklad>
+      <PuvodniDoklad>2100693</PuvodniDoklad>
+      <VariabilniSymbol>2100693</VariabilniSymbol>
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>neznámý</KontaktniOsobaNazev>
+        <Misto>Praha</Misto>
+        <Nazev>WILTEX s.r.o.</Nazev>
+        <PSC>13000</PSC>
+        <Ulice>Kubelíkova 1224/42</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="fa3c9365-65ad-46f1-acec-e46205b7d9ec">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>43-8368340237</CisloUctu>
+        <IBAN>CZ9801000000438368340237</IBAN>
+        <SpecifickySymbol />
+        <SWIFT>KOMBCZPP</SWIFT>
+        <Banka ObjectName="Banka" ObjectType="Object" ID="6aaa6c7c-4844-42d9-a027-e5af0d077154">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>0100</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>57780.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>57780.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="2004e9e5-fe5a-418c-984d-1cb25f54cdbb">
+          <JednCena>110.00</JednCena>
+          <Mnozstvi>468</Mnozstvi>
+          <Nazev>Hadr čistá bavlna BT 10kg</Nazev>
+          <PreneseniDane_ID>22c2bc57-ab68-43ca-8a38-a532f725930d</PreneseniDane_ID>
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>51480.00</Celkem>
+            <Dan>0.00</Dan>
+            <Sazba>0.00</Sazba>
+            <Zaklad>51480.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="467bd8d2-19f7-49dc-b7c7-b6a4f9936354">
+          <JednCena>150.00</JednCena>
+          <Mnozstvi>42</Mnozstvi>
+          <Nazev>Hadr čistící bílý !!!! 10kg</Nazev>
+          <PreneseniDane_ID>22c2bc57-ab68-43ca-8a38-a532f725930d</PreneseniDane_ID>
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>6300.00</Celkem>
+            <Dan>0.00</Dan>
+            <Sazba>0.00</Sazba>
+            <Zaklad>6300.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="f1322ae0-c82c-4428-baa0-511b97d387e6">
+      <CisloDokladu>FP2100077</CisloDokladu>
+      <DatumPlneni>2021-07-23T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-11T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-28T00:00:00</DatumVystaveni>
+      <DIC>CZ25034961</DIC>
+      <OdkazNaDoklad>FOv-770/2021</OdkazNaDoklad>
+      <PuvodniDoklad>1165770</PuvodniDoklad>
+      <VariabilniSymbol>1165770</VariabilniSymbol>
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>p.Vacková</KontaktniOsobaNazev>
+        <Misto>Liberec</Misto>
+        <Nazev>AVEX Liberec s.r.o.</Nazev>
+        <PSC>46007</PSC>
+        <Ulice>Ještědská 52/39</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="496cb9c2-7202-43f4-9180-b7cb396033de">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>305803883</CisloUctu>
+        <IBAN>CZ0303000000000305803883</IBAN>
+        <SpecifickySymbol />
+        <SWIFT>CEKOCZPP</SWIFT>
+        <Banka ObjectName="Banka" ObjectType="Object" ID="1ba31972-cf0a-44a4-88fe-d0b212e13a84">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>0300</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>572.45</Celkem>
+        <Dan>99.35</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>473.10</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="3020f6c7-6512-4f7c-b70a-c2338835c50b">
+          <JednCena>236.55</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Spray Car.černý matný 600ml</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>572.45</Celkem>
+            <Dan>99.35</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>473.10</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="14cbceab-166d-4a80-b0c4-f70a665249d8">
+      <CisloDokladu>FP2100078</CisloDokladu>
+      <DatumPlneni>2021-07-16T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-07-23T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-16T00:00:00</DatumVystaveni>
+      <DIC>CZ26765306</DIC>
+      <OdkazNaDoklad>1521005131</OdkazNaDoklad>
+      <PuvodniDoklad>1521005131</PuvodniDoklad>
+      <VariabilniSymbol>1521005131</VariabilniSymbol>
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>Franců</KontaktniOsobaNazev>
+        <Misto>Praha</Misto>
+        <Nazev>BARVY A LAKY HOSTIVAŘ, a.s.</Nazev>
+        <PSC>10200</PSC>
+        <Ulice>Průmyslová 1472/11</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="334fdbc4-846d-4d45-95a6-c509ffc60d77">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>4918732</CisloUctu>
+        <IBAN>CZ0408000000000004918732</IBAN>
+        <SpecifickySymbol />
+        <SWIFT>GIBACZPX</SWIFT>
+        <Banka ObjectName="Banka" ObjectType="Object" ID="2bc01f08-052d-4901-9933-f9323328c275">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>0800</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.46</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.46</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>13830.54</Celkem>
+        <Dan>2400.34</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>11430.20</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.46</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.46</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="589a1902-4eb8-4d44-95f4-a32c55c341d6">
+          <JednCena>297.40</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev />
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>359.85</Celkem>
+            <Dan>62.45</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>297.40</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="41991fa5-2c2a-46b0-aefd-779ac63e0d90">
+          <JednCena>15.10</JednCena>
+          <Mnozstvi>40</Mnozstvi>
+          <Nazev>Aviril olej ďětský s azulenem 50ml</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>730.84</Celkem>
+            <Dan>126.84</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>604.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="2397b2df-aaa9-485a-b9d3-65bb02e84dbe">
+          <JednCena>73.20</JednCena>
+          <Mnozstvi>44</Mnozstvi>
+          <Nazev>Opalovací krem Atrid F30 75ml</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>3897.17</Celkem>
+            <Dan>676.37</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>3220.80</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="d6a95101-1b13-422e-80e1-a6ca9d1d7e12">
+          <JednCena>74.90</JednCena>
+          <Mnozstvi>8</Mnozstvi>
+          <Nazev>Prací gel Persil 1l /20dávek Sensiti</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>725.03</Celkem>
+            <Dan>125.83</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>599.20</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="50dd8ff2-7754-4ee5-b1e1-a200c09ee7ac">
+          <JednCena>148.70</JednCena>
+          <Mnozstvi>10</Mnozstvi>
+          <Nazev>Prášek Palmex 63dávek Color Modrý</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1799.27</Celkem>
+            <Dan>312.27</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1487.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="4f2b64d5-206f-495d-9bb1-d530b9da7f17">
+          <JednCena>148.70</JednCena>
+          <Mnozstvi>10</Mnozstvi>
+          <Nazev>Prášek Palmex 63dávek Hory Modrý</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1799.27</Celkem>
+            <Dan>312.27</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1487.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="58373460-a8b0-4e09-99c1-7f16e8b631d6">
+          <JednCena>74.90</JednCena>
+          <Mnozstvi>16</Mnozstvi>
+          <Nazev>Prášek Persil 18dávek FBS na bílé</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1450.06</Celkem>
+            <Dan>251.66</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1198.40</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="9e74d2b7-f370-494a-8f16-e8e4e6ebe028">
+          <JednCena>148.70</JednCena>
+          <Mnozstvi>8</Mnozstvi>
+          <Nazev>Prášek Rex 63dávek Color</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1439.42</Celkem>
+            <Dan>249.82</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1189.60</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="e3abc381-9229-42c7-a0dc-fb3975242be8">
+          <JednCena>36.20</JednCena>
+          <Mnozstvi>24</Mnozstvi>
+          <Nazev>Šampon Schauma 250ml 7bylin</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1051.25</Celkem>
+            <Dan>182.45</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>868.80</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="8f966f41-a0cb-4c4a-9223-2893bb40c7c3">
+          <JednCena>23.90</JednCena>
+          <Mnozstvi>20</Mnozstvi>
+          <Nazev>Voda po holení Windsor 100ml</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>578.38</Celkem>
+            <Dan>100.38</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>478.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="e99a23b2-6801-400d-b11b-812d843e8f78">
+      <CisloDokladu>FP2100079</CisloDokladu>
+      <DatumPlneni>2021-07-23T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-07-30T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-23T00:00:00</DatumVystaveni>
+      <DIC>CZ26765306</DIC>
+      <OdkazNaDoklad>1521005358</OdkazNaDoklad>
+      <PuvodniDoklad>1521005131</PuvodniDoklad>
+      <VariabilniSymbol>1521005358</VariabilniSymbol>
+      <ZapornyPohyb>True</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>Franců</KontaktniOsobaNazev>
+        <Misto>Praha</Misto>
+        <Nazev>BARVY A LAKY HOSTIVAŘ, a.s.</Nazev>
+        <PSC>10200</PSC>
+        <Ulice>Průmyslová 1472/11</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="334fdbc4-846d-4d45-95a6-c509ffc60d77">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>4918732</CisloUctu>
+        <IBAN>CZ0408000000000004918732</IBAN>
+        <SpecifickySymbol />
+        <SWIFT />
+        <Banka ObjectName="Banka" ObjectType="Object" ID="2bc01f08-052d-4901-9933-f9323328c275">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>0800</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.15</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.15</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>359.85</Celkem>
+        <Dan>62.45</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>297.40</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.15</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.15</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="addbd562-60ce-4396-867e-059cf86d8a09">
+          <JednCena>297.40</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev />
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>359.85</Celkem>
+            <Dan>62.45</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>297.40</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="fdb58119-2de7-4d11-b798-7a46b6db4a93">
+      <CisloDokladu>FP2100080</CisloDokladu>
+      <DatumPlneni>2021-07-28T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-11T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-28T00:00:00</DatumVystaveni>
+      <DIC>CZ426031065</DIC>
+      <OdkazNaDoklad>210100499</OdkazNaDoklad>
+      <PuvodniDoklad>210100499</PuvodniDoklad>
+      <VariabilniSymbol>210100499</VariabilniSymbol>
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>Straka</KontaktniOsobaNazev>
+        <Misto>Hrádek nad Nisou</Misto>
+        <Nazev>Ing. Věra Nižníková</Nazev>
+        <PSC>46334</PSC>
+        <Ulice>Řadová 675</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="130fc2ea-6a63-4ad1-a56d-67854b85a32d">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>152173242</CisloUctu>
+        <IBAN>CZ8006000000000152173242</IBAN>
+        <SpecifickySymbol />
+        <SWIFT>AGBACZPP</SWIFT>
+        <Banka ObjectName="Banka" ObjectType="Object" ID="235bc35d-7aac-422f-9e7b-cb76b230f357">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>0600</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>1403.60</Celkem>
+        <Dan>243.60</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>1160.00</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="a83c5248-85d9-4ff1-806d-52b1265e3bca">
+          <JednCena>1160.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Rohož textilní Arcos 100x100cm černá</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1403.60</Celkem>
+            <Dan>243.60</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1160.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+    <FakturaPrijata ObjectName="FakturaPrijata" ObjectType="Object" ID="84604143-bc90-4561-a373-1df259c6b18d">
+      <CisloDokladu>FP2100081</CisloDokladu>
+      <DatumPlneni>2021-07-28T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-18T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-29T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-29T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-28T00:00:00</DatumVystaveni>
+      <DIC>CZ26163284</DIC>
+      <OdkazNaDoklad>5070220309</OdkazNaDoklad>
+      <PuvodniDoklad>5070220309</PuvodniDoklad>
+      <VariabilniSymbol>5070220309</VariabilniSymbol>
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Adresa>
+        <KontaktniOsobaNazev>Jiří Sobr</KontaktniOsobaNazev>
+        <Misto>Praha 5</Misto>
+        <Nazev>Diversey Česká republika, s.r.o., člen koncernu Diversey</Nazev>
+        <PSC>15500</PSC>
+        <Ulice>K Hájům 1233/2</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="1c2a352b-5fe3-4847-9c98-05abd0856b35">
+          <PlatceDPH>True</PlatceDPH>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>2039890118</CisloUctu>
+        <IBAN>CZ8526000000002039890118</IBAN>
+        <SpecifickySymbol />
+        <SWIFT>CITICZPX</SWIFT>
+        <Banka ObjectName="Banka" ObjectType="Object" ID="93feb0cb-8476-4de4-9131-3ea9c92cc200">
+          <Group ID="ef04d885-1a39-4c48-a7a8-eb797000fd62" Kod="BAN" />
+          <CiselnyKod>2600</CiselnyKod>
+        </Banka>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>18622.46</Celkem>
+        <Dan>3232.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>15390.46</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>-0.19</Celkem>
+        <Dan>-0.03</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>-0.16</Zaklad>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyPrijate" ObjectType="List">
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="332cbfbb-f3c7-4fd2-a36e-3c502a47052b">
+          <JednCena>212.00</JednCena>
+          <Mnozstvi>10</Mnozstvi>
+          <Nazev>Aviváž Coccolino 5l bílá</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>2565.20</Celkem>
+            <Dan>445.20</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2120.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="883a36af-d4b0-451b-a5fc-a27a941f3a85">
+          <JednCena>208.00</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Koupelny Cif 5L</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>503.36</Celkem>
+            <Dan>87.36</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>416.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="29e3977e-4413-49f8-8970-7f91ee403221">
+          <JednCena>47.56</JednCena>
+          <Mnozstvi>48</Mnozstvi>
+          <Nazev>Koupelny Cif 750ml MR</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>2762.28</Celkem>
+            <Dan>479.40</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2282.88</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="f6adc91d-04ec-4cba-a6c7-a2af5764ff4e">
+          <JednCena>552.41</JednCena>
+          <Mnozstvi>6</Mnozstvi>
+          <Nazev>Prášek Clax Bioextra Profi 18kg Automat</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>4010.50</Celkem>
+            <Dan>696.04</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>3314.46</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="c936b467-54aa-4582-b653-c9a0ea9e9c58">
+          <JednCena>552.41</JednCena>
+          <Mnozstvi>8</Mnozstvi>
+          <Nazev>Prášek Clax Bioextra Profi 18kg Color</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>5347.33</Celkem>
+            <Dan>928.05</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>4419.28</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="1a67af95-5b2d-493d-999a-a884a8487132">
+          <JednCena>250.00</JednCena>
+          <Mnozstvi>10</Mnozstvi>
+          <Nazev>Savo 15kg kanystr</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>3025.00</Celkem>
+            <Dan>525.00</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2500.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+        <PolozkaFakturyPrijate ObjectName="PolozkaFakturyPrijate" ObjectType="Object" ID="97f7cfd8-4a0e-4a4f-9113-6daab049cbe1">
+          <JednCena>169.00</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Univerzál Cif 5L Lemon</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>408.98</Celkem>
+            <Dan>70.98</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>338.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyPrijate>
+      </Polozky>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaPrijata>
+  </FakturaPrijataList>
+</S5Data>

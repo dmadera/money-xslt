@@ -1,0 +1,1397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<S5Data>
+  <FakturaVydanaList>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="9484a9e6-d0c7-4dda-ac0f-b62e25d9f93e">
+      <CisloDokladu>FV2100331</CisloDokladu>
+      <DatumPlneni>2021-07-23T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-29T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-30T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-23T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-30T00:00:00</DatumVystaveni>
+      <DIC>CZ45803811</DIC>
+      <EvidovatNahradniPlneni>False</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>45803811</IC>
+      <ICDPH />
+      <Nazev>v DL dodáno špatně, proto nyní po domluvě s p.Srbem doúčtováno!!!</Nazev>
+      <OdkazNaDoklad>tel.</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>7.00</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100331</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Jan Zikmund</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Praha</Misto>
+        <Nazev>Blyth s.r.o.</Nazev>
+        <PSC>10400</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Přátelství 1011/17</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="21286758-306b-4d29-9a07-2d4753d6a269">
+          <PlatceDPH>True</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="b9fe31f5-7633-46f4-987b-5672ea861ae2">
+              <SpojeniCislo> 602 741 020</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="6fc19118-a6be-47a5-a138-925fb2d08052">
+              <SpojeniCislo>272 099 552</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="f0a69352-3a88-455c-98a8-3a0a0d50e38f">
+              <SpojeniCislo>272 650 077</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="9a42faf1-963d-4fad-b776-3846a2516741">
+                <Kod>Tel</Kod>
+                <Nazev>#</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="4f0c248c-6726-492d-b51c-4f1534d93035">
+              <SpojeniCislo>602 391 332</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="71475e71-5e3d-49e4-b849-d3458e45a541">
+                <Kod>TelObj</Kod>
+                <Nazev># objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="06a5563e-6e01-434c-ad3b-f6937b7c5edd">
+              <SpojeniCislo>737 209 316</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="9a42faf1-963d-4fad-b776-3846a2516741">
+                <Kod>Tel</Kod>
+                <Nazev>#</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="2f5b42d9-1703-4bee-96d1-df9276a485ee">
+              <SpojeniCislo>hana.olivova@blyth.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="be8d34e9-b0c7-46bc-9e0d-af4166c376c4">
+              <SpojeniCislo>jan.zikmund@blyth.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>7451940247</CisloUctu>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.37</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.37</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>1092.63</Celkem>
+        <Dan>189.63</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>903.00</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.37</Celkem>
+        <CelkemCM>0.37</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.37</Zaklad>
+        <ZakladCM>0.37</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="43835096-953d-4675-b2ff-cd35a19c5446">
+          <JednCena>21.50</JednCena>
+          <Mnozstvi>42</Mnozstvi>
+          <Nazev>Nádobí Jar 450ml Pome granate</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1092.63</Celkem>
+            <Dan>189.63</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>903.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="73cd5949-ceaa-4ed3-ace8-34710f724e9c">
+        <Kod>O</Kod>
+        <Nazev>Osobní odběr</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="f54c0012-6c36-4c59-81aa-fe6849d6b253">
+      <CisloDokladu>FV2100121</CisloDokladu>
+      <DatumPlneni>2021-07-23T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-02T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-23T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-23T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-23T00:00:00</DatumVystaveni>
+      <DIC>CZ25493558</DIC>
+      <EvidovatNahradniPlneni>False</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>25493558</IC>
+      <ICDPH />
+      <Nazev>!</Nazev>
+      <OdkazNaDoklad>os</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>0.00</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100121</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Hejduk</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Raspenava</Misto>
+        <Nazev>Killich s.r.o.</Nazev>
+        <PSC>46401</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Lužecká 350</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="575264af-b983-44b8-9efd-7640077e32f8">
+          <PlatceDPH>True</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="98205499-e753-4609-8ade-d47dcda76094">
+              <SpojeniCislo />
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="93db9499-4c40-4cda-a60f-59b940d0279e">
+              <SpojeniCislo>482 312 864</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="102f2c93-fa21-4b79-8b8d-0adcef932daa">
+              <SpojeniCislo>485 163 014</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="378cfd59-931e-415e-9801-236cb44d428c">
+              <SpojeniCislo>faktury@killich.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>230747935</CisloUctu>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>344.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>344.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="3117bcc4-228d-49e5-847e-092655e46472">
+          <JednCena>4.30</JednCena>
+          <Mnozstvi>80</Mnozstvi>
+          <Nazev>Respirátor označen KN95/FFP2 bez ventilk</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>344.00</Celkem>
+            <Dan>0.00</Dan>
+            <Sazba>0.00</Sazba>
+            <Zaklad>344.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="73cd5949-ceaa-4ed3-ace8-34710f724e9c">
+        <Kod>O</Kod>
+        <Nazev>Osobní odběr</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="6e72a37a-f3e7-485d-b56c-cc0a135f70c1">
+      <CisloDokladu>FV2100107</CisloDokladu>
+      <DatumPlneni>2021-07-20T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-22T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-23T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-20T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-23T00:00:00</DatumVystaveni>
+      <DIC>CZ60109149</DIC>
+      <EvidovatNahradniPlneni>True</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>60109149</IC>
+      <ICDPH />
+      <Nazev>!</Nazev>
+      <OdkazNaDoklad>1210698</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>-8.00</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100107</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Dana Vaníčková</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Jičín</Misto>
+        <Nazev>Vodohospodářská a obchodní společnost, a.s.</Nazev>
+        <PSC>50601</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Na Tobolce 428</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="d729e61a-7e15-4ab7-89a5-3d2c922d2e40">
+          <PlatceDPH>True</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="9bf41a43-21bf-4369-8449-b3b84fc8a4ab">
+              <SpojeniCislo />
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="71b5d612-526a-45d3-9abf-f0f4bbfe6a72">
+              <SpojeniCislo>493 533 322</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="4fc1054b-bcb6-4dab-a87b-d242898c48ce">
+              <SpojeniCislo>herbrych@vosjicin.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="d31a9b5a-b4b0-408e-9809-f3850395ca5e">
+              <SpojeniCislo>vosjicin@vosjicin.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>1500541</CisloUctu>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>205.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>205.00</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.39</Celkem>
+        <CelkemCM>0.39</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.39</Zaklad>
+        <ZakladCM>0.39</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="e494f566-cf50-44d8-9674-8464a961493c">
+          <JednCena>204.61</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Hadr čistící bílý !!!! 10kg 0%DPH</Nazev>
+          <PreneseniDane_ID>22c2bc57-ab68-43ca-8a38-a532f725930d</PreneseniDane_ID>
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>204.61</Celkem>
+            <Dan>0.00</Dan>
+            <Sazba>0.00</Sazba>
+            <Zaklad>204.61</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="e32f7e6b-78d2-4fc3-afa2-0e3a1dafc133">
+        <Kod>Rst</Kod>
+        <Nazev>Rozvoz středa</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="8bfc9978-0842-4f90-aa5e-e67ee91e6fca">
+      <CisloDokladu>FV2100332</CisloDokladu>
+      <DatumPlneni>2021-07-21T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-12T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-08-02T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-21T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-08-02T00:00:00</DatumVystaveni>
+      <DIC>CZ70983810</DIC>
+      <EvidovatNahradniPlneni>True</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>70983810</IC>
+      <ICDPH />
+      <Nazev>! </Nazev>
+      <OdkazNaDoklad>za reklamaci</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>-7.64</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100332</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Mgr.Vobořil</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Osečná</Misto>
+        <Nazev>Základní škola a Mateřská škola,Osečná, okres Liberec,příspěvková organizace</Nazev>
+        <PSC>46352</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Školní 63</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="a431ea4d-e45c-43d7-886c-e606a2c89ed1">
+          <PlatceDPH>False</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="7ab0a62a-5382-4a4c-b4ec-4b0b3405b5a4">
+              <SpojeniCislo />
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="b297e1b4-a0ed-4e21-a77c-bff976943e61">
+              <SpojeniCislo>485 179 224, 737 245 227</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="158617ae-2079-4a36-b97e-d2ff8433eecd">
+              <SpojeniCislo>reditel@zsosecna.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="e43b9d37-3f3f-45d6-a3c4-453731d50731">
+              <SpojeniCislo>voboril.tomas@zsosecna.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu />
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>-0.32</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>-0.32</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>1659.32</Celkem>
+        <Dan>287.98</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>1371.34</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>-0.32</Celkem>
+        <CelkemCM>-0.32</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>-0.32</Zaklad>
+        <ZakladCM>-0.32</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="2a405b4d-db7b-4ec4-ab5c-da4f0943c9fb">
+          <JednCena>55.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dobírka</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>66.55</Celkem>
+            <Dan>11.55</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>55.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="d28763cc-a15b-4fac-9495-b07bef24d133">
+          <JednCena>137.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dopravné balík</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>165.77</Celkem>
+            <Dan>28.77</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>137.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="b06f3738-1d79-478a-9df3-b90b93904be9">
+          <JednCena>50.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dopravné paleta</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>True</Vratka>
+          <DPH>
+            <Celkem>60.50</Celkem>
+            <Dan>10.50</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>50.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="4c1a6950-bbe3-4eef-b11d-db7598e8a4ae">
+          <JednCena>106.84</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Prací gel Persil 1l /20dávek Regular</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>646.38</Celkem>
+            <Dan>112.18</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>534.20</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="844529f1-c3ba-49e1-9d65-6106891082d2">
+          <JednCena>407.16</JednCena>
+          <Mnozstvi>7</Mnozstvi>
+          <Nazev>Zásobník papírové role PK Maxi Harm.1382</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>3448.65</Celkem>
+            <Dan>598.53</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2850.12</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="a3414a28-034e-403a-87cc-bc6d34d98a3c">
+          <JednCena>1077.49</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Zásobník ručníky role Cormen podav178</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>True</Vratka>
+          <DPH>
+            <Celkem>2607.53</Celkem>
+            <Dan>452.55</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2154.98</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="3f89570c-ba06-4b8e-9e9d-3ed90cbb357e">
+        <Kod>Rut</Kod>
+        <Nazev>Rozvoz úterý</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="f82f46c1-0880-4c76-a7f6-136b0c0e5b83">
+      <CisloDokladu>FV2100333</CisloDokladu>
+      <DatumPlneni>2021-08-03T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-13T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-08-03T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-08-03T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-08-03T00:00:00</DatumVystaveni>
+      <DIC>CZ70983810</DIC>
+      <EvidovatNahradniPlneni>False</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>70983810</IC>
+      <ICDPH />
+      <Nazev>Opravný daňový doklad k fa FV2100332</Nazev>
+      <OdkazNaDoklad>ad</OdkazNaDoklad>
+      <PuvodniDoklad>FV2100332</PuvodniDoklad>
+      <Sleva>-7.64</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100333</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>True</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Mgr.Vobořil</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Osečná</Misto>
+        <Nazev>Základní škola a Mateřská škola,Osečná, okres Liberec,příspěvková organizace</Nazev>
+        <PSC>46352</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Školní 63</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="a431ea4d-e45c-43d7-886c-e606a2c89ed1">
+          <PlatceDPH>False</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="7ab0a62a-5382-4a4c-b4ec-4b0b3405b5a4">
+              <SpojeniCislo />
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="b297e1b4-a0ed-4e21-a77c-bff976943e61">
+              <SpojeniCislo>485 179 224, 737 245 227</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="158617ae-2079-4a36-b97e-d2ff8433eecd">
+              <SpojeniCislo>reditel@zsosecna.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="e43b9d37-3f3f-45d6-a3c4-453731d50731">
+              <SpojeniCislo>voboril.tomas@zsosecna.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu />
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>-0.32</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>-0.32</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>1659.32</Celkem>
+        <Dan>287.98</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>1371.34</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>-0.32</Celkem>
+        <CelkemCM>-0.32</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>-0.32</Zaklad>
+        <ZakladCM>-0.32</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="6f8cc38e-ba82-402e-9c60-e6b13b817a8a">
+          <JednCena>55.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dobírka</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>66.55</Celkem>
+            <Dan>11.55</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>55.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="093c45c0-989f-423b-8b82-7edcb599467c">
+          <JednCena>137.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dopravné balík</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>165.77</Celkem>
+            <Dan>28.77</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>137.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="ac623d61-42a3-4a00-8bf5-45f9b8f6244b">
+          <JednCena>50.00</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Dopravné paleta</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>True</Vratka>
+          <DPH>
+            <Celkem>60.50</Celkem>
+            <Dan>10.50</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>50.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="24f44eb5-0934-437c-9ee2-1131ad018c8a">
+          <JednCena>106.84</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Prací gel Persil 1l /20dávek Regular</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>646.38</Celkem>
+            <Dan>112.18</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>534.20</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="4f63a9e4-18e3-49e1-ab69-9957483cab29">
+          <JednCena>407.16</JednCena>
+          <Mnozstvi>7</Mnozstvi>
+          <Nazev>Zásobník papírové role PK Maxi Harm.1382</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>3448.65</Celkem>
+            <Dan>598.53</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2850.12</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="fb7a5a59-e097-456a-928b-390020f48327">
+          <JednCena>1077.49</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Zásobník ručníky role Cormen podav178</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>True</Vratka>
+          <DPH>
+            <Celkem>2607.53</Celkem>
+            <Dan>452.55</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2154.98</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="3f89570c-ba06-4b8e-9e9d-3ed90cbb357e">
+        <Kod>Rut</Kod>
+        <Nazev>Rozvoz úterý</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="3fd9a744-ce3f-46be-a4c0-775cdf0937d2">
+      <CisloDokladu>FV2100328</CisloDokladu>
+      <DatumPlneni>2021-07-27T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-19T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-30T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-27T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-30T00:00:00</DatumVystaveni>
+      <DIC>CZ26636328</DIC>
+      <EvidovatNahradniPlneni>False</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>26636328</IC>
+      <ICDPH />
+      <Nazev>! vyzvedne p.Sochor</Nazev>
+      <OdkazNaDoklad>82417; 82393; 82560; 710/210957</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>-8.00</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100328</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Jiřina Heilandová</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Liberec 5</Misto>
+        <Nazev>Občanské sdružení D.R.A.K. z.s.</Nazev>
+        <PSC>46005</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Oblačná 450/1</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="79eb687f-9708-4412-9d1e-c99c5553ad27">
+          <PlatceDPH>True</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="099d1c1c-6822-4d9e-80f9-3d43a14452c8">
+              <SpojeniCislo>485 102 668</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="31022a4c-68eb-4bd5-a655-ccf9160596cb">
+              <SpojeniCislo>604 652 753</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="6c799713-07e1-4887-a596-11f4967ed59b">
+              <SpojeniCislo>heilandova@sdruzenidrak.org</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="597f0de4-f988-430e-b22a-6fc41d4a04d0">
+              <SpojeniCislo>pekarova@sdruzenidrak.org</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="ed57ea4d-32d0-492b-ae32-f82b475d8131">
+              <SpojeniCislo>pekarova@sdruzenidrak.org</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>30031-3377071339</CisloUctu>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.21</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.21</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>14044.79</Celkem>
+        <Dan>2437.54</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>11607.25</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.21</Celkem>
+        <CelkemCM>0.21</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.21</Zaklad>
+        <ZakladCM>0.21</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Cinnost ObjectName="Cinnost" ObjectType="Object" ID="fa03dc63-7af1-44ba-b3d9-1b94f2a6d361">
+        <Kod>DRAK</Kod>
+        <Nazev>Drak</Nazev>
+      </Cinnost>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="24c1a162-8138-49e5-a527-364825b04107">
+          <JednCena>279.57</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Cleamen 145 5l stroj+ruční mytí nepěnivý</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>338.28</Celkem>
+            <Dan>58.71</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>279.57</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="8af20685-aa8a-4785-9a8c-a8fb8f05e557">
+          <JednCena>24.19</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Hadr na podlahu VILEDA nebalený 50x60cm</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>146.35</Celkem>
+            <Dan>25.40</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>120.95</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="394e1125-db45-4541-848b-20bc659cf60a">
+          <JednCena>129.60</JednCena>
+          <Mnozstvi>2</Mnozstvi>
+          <Nazev>Kartáč silniční 40cm černý s holí 140cm</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>313.63</Celkem>
+            <Dan>54.43</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>259.20</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="be7067e2-3775-4026-91de-a9a86449c44e">
+          <JednCena>14.93</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Krém na ruce Isolda Aloe Vera/rege.100ml</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>90.33</Celkem>
+            <Dan>15.68</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>74.65</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="5c5d2386-b3f9-40f5-86e3-b420988b0929">
+          <JednCena>52.41</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Osvěžovač spray Glade 300ml Oceán</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>317.08</Celkem>
+            <Dan>55.03</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>262.05</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="68488a93-3b87-4998-bf29-a3ce0cc98712">
+          <JednCena>44.53</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Osvěžovač spray Glade 300ml Santal.dřevo</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>269.41</Celkem>
+            <Dan>46.76</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>222.65</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="9112c7ef-7d82-49bf-9923-989fbd63d95c">
+          <JednCena>44.55</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Osvěžovač spray Glade 300ml Vanilla</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>269.53</Celkem>
+            <Dan>46.78</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>222.75</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="c066dbf6-abaf-452d-baf6-6c2653c8e201">
+          <JednCena>52.55</JednCena>
+          <Mnozstvi>5</Mnozstvi>
+          <Nazev>Osvěžovač spray Glade 300ml Vůně čistoty</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>317.93</Celkem>
+            <Dan>55.18</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>262.75</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="d90d4c94-0b4e-4664-8bda-8998fffa5fdd">
+          <JednCena>14.85</JednCena>
+          <Mnozstvi>140</Mnozstvi>
+          <Nazev>Papírové ručníky ZZ 2vr Harm.1614 rec150</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>2515.59</Celkem>
+            <Dan>436.59</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2079.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="8f29d5b4-c384-4215-92bf-a2c3f815cb02">
+          <JednCena>287.25</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Rukavice latex jednorázové 100ks L pudro</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>347.57</Celkem>
+            <Dan>60.32</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>287.25</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="49bbea39-c12a-4165-9f83-8e0df56d536e">
+          <JednCena>364.99</JednCena>
+          <Mnozstvi>7</Mnozstvi>
+          <Nazev>Rukavice nitrilové bez pudru 100ks L</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>3091.47</Celkem>
+            <Dan>536.54</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>2554.93</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="49b11494-e64f-4bff-9a20-97a8cf1d1c9e">
+          <JednCena>28.89</JednCena>
+          <Mnozstvi>1</Mnozstvi>
+          <Nazev>Souprava smetáček+lopatka Perfekt/2010</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>34.96</Celkem>
+            <Dan>6.07</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>28.89</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="0a0cb0b9-677e-4e67-853d-b50a70a7eb9e">
+          <JednCena>6.03</JednCena>
+          <Mnozstvi>56</Mnozstvi>
+          <Nazev>Toaletní papír 3vrs.150 Tento BlueDec 8k</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>408.59</Celkem>
+            <Dan>70.91</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>337.68</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="d887b908-fa70-43f3-ad06-199ad87486cb">
+          <JednCena>22.32</JednCena>
+          <Mnozstvi>24</Mnozstvi>
+          <Nazev>Toaletní papír Gigant 2vrs.190 Harm/7360</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>648.17</Celkem>
+            <Dan>112.49</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>535.68</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="52eeb19f-8633-4a13-ba4a-0f745600ba5e">
+          <JednCena>49.11</JednCena>
+          <Mnozstvi>12</Mnozstvi>
+          <Nazev>Toaletní papír Gigant 2vrs.280 Harm/7366</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>713.08</Celkem>
+            <Dan>123.76</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>589.32</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="ca2b72b1-add7-402b-88a7-c3ff2b54d5c0">
+          <JednCena>49.11</JednCena>
+          <Mnozstvi>12</Mnozstvi>
+          <Nazev>Toaletní papír Gigant 2vrs.280 Harm/7366</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>713.08</Celkem>
+            <Dan>123.76</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>589.32</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="904fc00d-92a0-4776-bef8-8b81f099d65b">
+          <JednCena>191.53</JednCena>
+          <Mnozstvi>7</Mnozstvi>
+          <Nazev>Univerzál Savo 5kg Vůně květin/Magnolia</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1622.26</Celkem>
+            <Dan>281.55</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1340.71</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="a9c35328-a780-4fe0-82c6-8030582dcb9f">
+          <JednCena>11.87</JednCena>
+          <Mnozstvi>10</Mnozstvi>
+          <Nazev>Utěrka houbová 3ks 16x18cm Soke/Betty/32</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>143.63</Celkem>
+            <Dan>24.93</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>118.70</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="b97b44ae-ca3f-43e3-a6b3-0e8d01cb31f1">
+          <JednCena>12.01</JednCena>
+          <Mnozstvi>120</Mnozstvi>
+          <Nazev>Vatové tyčinky 100ks Linteo krabička</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1743.85</Celkem>
+            <Dan>302.65</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>1441.20</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="2a237e8a-f3bc-4b4e-9830-577d4436dc30">
+        <Kod>R</Kod>
+        <Nazev>Rozvoz</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+    <FakturaVydana ObjectName="FakturaVydana" ObjectType="Object" ID="125f8e7d-daf6-4dc9-abf8-449d68d5b8c5">
+      <CisloDokladu>FV2100327</CisloDokladu>
+      <DatumPlneni>2021-07-27T00:00:00</DatumPlneni>
+      <DatumSplatnosti>2021-08-19T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2021-07-30T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2021-07-27T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2021-07-30T00:00:00</DatumVystaveni>
+      <DIC>CZ25049534</DIC>
+      <EvidovatNahradniPlneni>False</EvidovatNahradniPlneni>
+      <Faze EnumValueName="Aktivni">1</Faze>
+      <IC>25049534</IC>
+      <ICDPH />
+      <Nazev>!</Nazev>
+      <OdkazNaDoklad>ES-82587</OdkazNaDoklad>
+      <PuvodniDoklad />
+      <Sleva>6.00</Sleva>
+      <Storno EnumValueName="NeniStorno">0</Storno>
+      <VariabilniSymbol>2100327</VariabilniSymbol>
+      <ZaokrouhleniCelkovaCastka_ID>2e50714f-4779-46f2-997a-7428203dc7b5</ZaokrouhleniCelkovaCastka_ID>
+      <ZaokrouhleniDPH_ID />
+      <ZapornyPohyb>False</ZapornyPohyb>
+      <Zauctovano>True</Zauctovano>
+      <Adresa>
+        <KontaktniOsobaJmeno />
+        <KontaktniOsobaNazev>Koubovská</KontaktniOsobaNazev>
+        <KontaktniOsobaPrijmeni />
+        <Misto>Jablonec nad Nisou</Misto>
+        <Nazev>ESO úklid, spol. s r.o.</Nazev>
+        <PSC>46602</PSC>
+        <Stat>Česká republika</Stat>
+        <Ulice>Podzimní 1436/37</Ulice>
+        <Firma ObjectName="Firma" ObjectType="Object" ID="2a8cf0a3-bb68-492d-b866-c489a4a9b6d3">
+          <PlatceDPH>True</PlatceDPH>
+          <SeznamSpojeni ObjectName="Spojeni" ObjectType="List">
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="b7645783-fe37-4ae4-8d2e-45d9eb496798">
+              <SpojeniCislo />
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="5125b0f7-1a14-4aad-a756-738f6e802922">
+              <SpojeniCislo>603 163 903</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="bd020709-5d3c-4090-b3f7-f1033011a935">
+                <Kod>TelVed</Kod>
+                <Nazev># vedení</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="51d6e138-3f8a-4fd2-8740-b53db4eb3cc7">
+              <SpojeniCislo>773 338 566</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="a885cd5b-f371-44d0-917b-d99e7019fb28">
+                <Kod>TelPreb</Kod>
+                <Nazev># přebírající</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="2a28324c-c6aa-4a09-9c35-92c90e66f354">
+              <SpojeniCislo>info@eso-uklid.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="dc748a02-43ed-4cc5-8264-4994b56919d0">
+                <Kod>EmailObj</Kod>
+                <Nazev>@ objednávky</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+            <Spojeni ObjectName="Spojeni" ObjectType="Object" ID="e54ede36-9455-4245-881a-3c564a5e551e">
+              <SpojeniCislo>koubovska@devilscleaning.cz</SpojeniCislo>
+              <TypSpojeni ObjectName="TypSpojeni" ObjectType="Object" ID="209355b4-8706-457b-b016-979780dafc68">
+                <Kod>EmailFa</Kod>
+                <Nazev>@ fakturační</Nazev>
+              </TypSpojeni>
+            </Spojeni>
+          </SeznamSpojeni>
+        </Firma>
+      </Adresa>
+      <BankovniSpojeni>
+        <CisloUctu>2107657968</CisloUctu>
+      </BankovniSpojeni>
+      <DPH0>
+        <Celkem>0.16</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.16</Zaklad>
+      </DPH0>
+      <DPH1>
+        <Celkem>0.00</Celkem>
+        <Dan>0.00</Dan>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+      </DPH1>
+      <DPH2>
+        <Celkem>6482.84</Celkem>
+        <Dan>1125.12</Dan>
+        <Sazba>21.00</Sazba>
+        <Zaklad>5357.72</Zaklad>
+      </DPH2>
+      <Korekce0>
+        <Celkem>0.16</Celkem>
+        <CelkemCM>0.16</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>0.00</Sazba>
+        <Zaklad>0.16</Zaklad>
+        <ZakladCM>0.16</ZakladCM>
+      </Korekce0>
+      <Korekce1>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>15.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce1>
+      <Korekce2>
+        <Celkem>0.00</Celkem>
+        <CelkemCM>0.00</CelkemCM>
+        <Dan>0.00</Dan>
+        <DanCM>0.00</DanCM>
+        <Sazba>21.00</Sazba>
+        <Zaklad>0.00</Zaklad>
+        <ZakladCM>0.00</ZakladCM>
+      </Korekce2>
+      <Cinnost ObjectName="Cinnost" ObjectType="Object" ID="2e4487d3-32c4-4528-93a0-6d58a01a28dd">
+        <Kod>S_FA</Kod>
+        <Nazev>Souhrnná fakturace</Nazev>
+      </Cinnost>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="51ea557b-3da4-4ab0-9dd2-26e0ce3835c9">
+          <JednCena>17.47</JednCena>
+          <Mnozstvi>200</Mnozstvi>
+          <Nazev>Papírové ručníky ZZ 2vr 1193 celuloz 150</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>4227.74</Celkem>
+            <Dan>733.74</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>3494.00</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="2a1035c2-b885-4ed4-8009-765701e9186a">
+          <JednCena>3.66</JednCena>
+          <Mnozstvi>240</Mnozstvi>
+          <Nazev>Toaletní papír 2vrs.160 Perfex+ bílý 18m</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1062.86</Celkem>
+            <Dan>184.46</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>878.40</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object" ID="b3231b98-ff6f-4a53-95b6-5c89b39a402c">
+          <JednCena>27.37</JednCena>
+          <Mnozstvi>36</Mnozstvi>
+          <Nazev>WC čistič Fixinela 750ml Ocean</Nazev>
+          <PreneseniDane_ID />
+          <Vratka>False</Vratka>
+          <DPH>
+            <Celkem>1192.24</Celkem>
+            <Dan>206.92</Dan>
+            <Sazba>21.00</Sazba>
+            <Zaklad>985.32</Zaklad>
+          </DPH>
+        </PolozkaFakturyVydane>
+      </Polozky>
+      <ZpusobDopravy ObjectName="ZpusobDopravy" ObjectType="Object" ID="2a237e8a-f3bc-4b4e-9830-577d4436dc30">
+        <Kod>R</Kod>
+        <Nazev>Rozvoz</Nazev>
+      </ZpusobDopravy>
+      <ZpusobPlatby ObjectName="ZpusobPlatby" ObjectType="Object" ID="c304b2bd-5b08-46d3-afa0-8a2c35039662">
+        <Kod>P</Kod>
+        <Nazev>Převodem</Nazev>
+      </ZpusobPlatby>
+    </FakturaVydana>
+  </FakturaVydanaList>
+</S5Data>
