@@ -97,6 +97,7 @@
                                     <typ:priceRound><xsl:value-of select="Korekce0/Celkem" /></typ:priceRound>
                                 </typ:round>
                             </inv:homeCurrency>
+                            <inv:roundingDocument>none</inv:roundingDocument>
                         </inv:invoiceSummary>
                     </inv:invoice>
                 </dat:dataPackItem>
