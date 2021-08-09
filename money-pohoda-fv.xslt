@@ -90,7 +90,8 @@
                                         <xsl:when test="ZpusobPlatby/Kod = 'P'">Příkazem</xsl:when>
                                         <xsl:when test="ZpusobPlatby/Kod = 'H'">hotově</xsl:when>
                                         <xsl:when test="ZpusobPlatby/Kod = 'K'">plat.kartou</xsl:when>
-                                        <xsl:otherwise>Převod</xsl:otherwise>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'D'">dobírkou</xsl:when>
+                                        <xsl:otherwise></xsl:otherwise>
                                     </xsl:choose>
                                 </typ:ids>
                             </inv:paymentType>                            

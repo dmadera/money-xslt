@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "--output",
-                "${workspaceFolder}/money-pohoda-fv/output.xml",
+                "${workspaceFolder}/tmp/money-pohoda-fv.xml",
                 "${workspaceFolder}/money-pohoda-fv.xslt",
                 "${workspaceFolder}/money-pohoda-fv/input.xml"
             ],
@@ -34,7 +34,7 @@
             "type": "process",
             "args": [
                 "--output",
-                "${workspaceFolder}/money-pohoda-fp/output.xml",
+                "${workspaceFolder}/tmp/money-pohoda-fp.xml",
                 "${workspaceFolder}/money-pohoda-fp.xslt",
                 "${workspaceFolder}/money-pohoda-fp/input.xml"
             ],

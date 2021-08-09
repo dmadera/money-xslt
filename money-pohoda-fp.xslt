@@ -43,7 +43,6 @@
                             </inv:classificationVAT>
                             <inv:partnerIdentity>
                                 <typ:address>
-                                    <typ:name><xsl:value-of select="Adresa/KontaktniOsobaNazev"/></typ:name>
                                     <typ:company><xsl:value-of select="Adresa/Nazev"/></typ:company>
                                     <typ:city><xsl:value-of select="Adresa/Misto"/></typ:city>
                                     <typ:street><xsl:value-of select="Adresa/Ulice"/></typ:street>
@@ -62,14 +61,18 @@
                                 <typ:ids>
                                     <xsl:choose>
                                         <xsl:when test="ZpusobPlatby/Kod = 'Z'">zálohou</xsl:when>
-                                        <xsl:otherwise>Příkazem</xsl:otherwise>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'P'">Příkazem</xsl:when>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'H'">hotově</xsl:when>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'K'">plat.kartou</xsl:when>
+                                        <xsl:when test="ZpusobPlatby/Kod = 'D'">dobírkou</xsl:when>
+                                        <xsl:otherwise></xsl:otherwise>
                                     </xsl:choose>
                                 </typ:ids>
                             </inv:paymentType>
-                            <inv:account>
+                            <inv:paymentAccount>
                                 <typ:accountNo><xsl:value-of select="BankovniSpojeni/CisloUctu"/></typ:accountNo>
                                 <typ:bankCode><xsl:value-of select="BankovniSpojeni/Banka/CiselnyKod"/></typ:bankCode>
-                            </inv:account>                      
+                            </inv:paymentAccount>                      
                         </inv:invoiceHeader>
                         <inv:invoiceSummary>
                             <inv:homeCurrency>
