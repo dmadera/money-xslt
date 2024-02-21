@@ -61,7 +61,7 @@
             "type": "process",
             "args": [
                 "--output",
-                "${workspaceFolder}/tmp/money-cormen-ov.xlsx",
+                "${workspaceFolder}/tmp/money-cormen-ov.xls",
                 "${workspaceFolder}/money-cormen-ov.xslt",
                 "${workspaceFolder}/money-cormen-ov/input.xml"
             ],
