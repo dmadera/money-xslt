@@ -54,6 +54,19 @@
                 "money-pohoda-fp-build"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "money-cormen-ov",
+            "command": "xsltproc",
+            "type": "process",
+            "args": [
+                "--output",
+                "${workspaceFolder}/tmp/money-cormen-ov.xlsx",
+                "${workspaceFolder}/money-cormen-ov.xslt",
+                "${workspaceFolder}/money-cormen-ov/input.xml"
+            ],
+            "dependsOn": [],
+            "problemMatcher": []
         }
     ]
 }

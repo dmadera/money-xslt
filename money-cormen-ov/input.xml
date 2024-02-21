@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<S5Data>
+  <ObjednavkaVydanaList>
+    <ObjednavkaVydana ObjectName="ObjednavkaVydana" ObjectType="Object" ID="b0d33e44-61b4-4a71-a35f-b84ef3a39165">
+      <Polozky ObjectName="PolozkaObjednavkyVydane" ObjectType="List">
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="26a3f9a8-7777-4253-a098-e60100211d97">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>36</Mnozstvi>
+          <Zbyva>36</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="5a1b4be9-2fc9-48cd-8386-d65b470bcf3b">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="59b76e60-e615-432a-bfa5-e6a1c863adaf">
+              <Kod>2734</Kod>
+              <Nazev>Cleamen 110 skleněné plochy s MR 1L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="56904b53-ecfc-4e95-93f0-2f4793c2b47c">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC110010097</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="c4a4f0df-9f89-468a-8bce-804eef4a6809">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>12</Mnozstvi>
+          <Zbyva>12</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="5a679a72-4f34-4894-a9a0-60f671eb62ea">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="9c877e5a-d819-4f58-981e-e2050231a345">
+              <Kod>0306</Kod>
+              <Nazev>Cleamen 112 okna a rámy 1L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="e7039b4d-573e-4a2c-8cc9-bde1415d90e9">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC112010098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="0d053d7b-3d89-47f2-b3a4-f336e61d66de">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>2</Mnozstvi>
+          <Zbyva>2</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="6ac244ed-82ac-4904-91a9-5d8fca51822f">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="f404570c-d3b5-48bf-985d-4e8cfb53c1e0">
+              <Kod>1904</Kod>
+              <Nazev>Cleamen 141 alkalický, strojní mytí 20L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="7a9ae417-d421-4bc0-8459-7786f7e33d6e">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC141200098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="9174091b-e295-4277-ba73-28106be4af85">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>2</Mnozstvi>
+          <Zbyva>2</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="78f8c3cc-f558-4327-b464-90dd77b2086c">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="9943cc66-e4ae-4a1a-ba3e-56e0dbe2ded7">
+              <Kod>1145</Kod>
+              <Nazev>Cleamen 145 strojní a ruční mytí 20L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="a429d97f-4c23-4244-b366-3b9e8f773832">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC145200097</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="7307ca06-525e-41a1-814c-1790bbd1159e">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>36</Mnozstvi>
+          <Zbyva>36</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="3800863a-6c1b-4475-9f61-7d23f84a439d">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="df5b328c-2457-4c2d-911b-074c3e74f085">
+              <Kod>2325</Kod>
+              <Nazev>Cleamen 240 trouby,gril MR 1,1kg</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="c8269f0b-a67a-4dea-8fc2-24ce1ef8a2bc">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC240011098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="e145f233-b9c3-4050-976a-5d5d3c7be1e7">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>5</Mnozstvi>
+          <Zbyva>5</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="8e7abaca-db94-4d14-8710-93d8f33b707f">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="f4f2db92-c3cc-425d-b01c-efd86ecbacb2">
+              <Kod>2221</Kod>
+              <Nazev>Cleamen 410 koupelny 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="5bdbd8ce-8b8a-48dd-9afc-6c92182b5246">
+                  <DodavatelskeOznaceni>
+                    <Kod>VC410050095</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="314b4cab-484e-4db0-ba1f-c55a653eff5a">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>2</Mnozstvi>
+          <Zbyva>2</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="d2b3f48c-7f10-4535-a9d4-a0db74e94746">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="c4c1ec14-ba04-4260-8060-0956086957b5">
+              <Kod>5752</Kod>
+              <Nazev>Dávkovací pumpa na kanystr 5L / 30ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="ea0841f5-18db-471b-b1d3-6086fce40fdb">
+                  <DodavatelskeOznaceni>
+                    <Kod>ZC903000199</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="b1bf5adb-d634-4005-8e8f-c89b9b83f6ae">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>60</Mnozstvi>
+          <Zbyva>60</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="a6a4a63f-ecb9-4e2e-9fdd-3b58c50f8662">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="ff9d65ce-3ab5-4698-a7bc-10c63996935d">
+              <Kod>0929</Kod>
+              <Nazev>Isofa/Vakavo pasta na ruc ECO 500g green</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="1e95ebc3-000c-46e7-a65f-9bd0c142792a">
+                  <DodavatelskeOznaceni>
+                    <Kod>VPPVG005098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="7bbca93b-9a82-482a-b74f-1a0feb798235">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>120</Mnozstvi>
+          <Zbyva>120</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="466d1807-d5e1-42cb-909c-b194ead9a9b0">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="e1d0a53d-5986-457f-bb44-9e635f617e71">
+              <Kod>5107</Kod>
+              <Nazev>Isofa/Vakavo pasta na ruce 600g Orange</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="0b12f4b3-4ae9-467a-b758-daa5e0f9102d">
+                  <DodavatelskeOznaceni>
+                    <Kod>VPPVO006098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="fc164daa-410e-497d-b8bb-41ff96452348">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>6</Mnozstvi>
+          <Zbyva>6</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="1a4955e4-4b9b-44f5-8e3c-43528ab12f6d">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="de73e330-b0bc-4544-aab1-4b6395cdb664">
+              <Kod>3581</Kod>
+              <Nazev>Koupelny Krystal 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="234303b4-3134-4e90-9541-779ff557899b">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBDKO050098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="0cb3ac66-e1ae-473c-bc46-e7c5e3502735">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>50</Mnozstvi>
+          <Zbyva>50</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="cb7215db-b0d4-4154-bcaa-7f4798fecacd">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="35d02eb2-b97f-4578-b828-923f411af421">
+              <Kod>2786</Kod>
+              <Nazev>Krém na ruce Isolda Keratin s mandlovým olejem 100ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="d6e20333-6817-42f2-94cd-fe56a7ba309f">
+                  <DodavatelskeOznaceni>
+                    <Kod>VPKMZ001094</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="4a1d7557-e159-4170-ba7a-961d38f3d071">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>100</Mnozstvi>
+          <Zbyva>100</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="83ec9740-3e65-41c0-a3fc-1e5da6c96a99">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="a0cedcb0-ceda-45ae-bfe8-83ed23bf3145">
+              <Kod>2988</Kod>
+              <Nazev>Krém na ruce Isolda Oliva regenerační 100ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="e5291728-e71e-4349-b477-139017ae8ddc">
+                  <DodavatelskeOznaceni>
+                    <Kod>VPKRO001092</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="54600941-8679-4af1-a53f-7784c8708080">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>3</Mnozstvi>
+          <Zbyva>3</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="ce6242eb-242f-42df-be3b-b01179023e90">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="20046211-ded8-44c5-8741-80e71156630e">
+              <Kod>4748</Kod>
+              <Nazev>Krystal dezinfekce podlah bezchloru 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="be96efbc-34cc-421f-8c2c-ce5ae3431874">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBUDP050098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="2931a16b-7699-4a8b-b4f1-317be35614c0">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>17</Mnozstvi>
+          <Zbyva>17</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="04063961-b1e7-4c72-b94e-46805320bbfe">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="3d443790-ad76-4a1f-8b16-cd05b197161d">
+              <Kod>3804</Kod>
+              <Nazev>Krystal Pine Sanan 750ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="9485b181-73b4-4def-b7c8-5d6798f6d82a">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBSDP10098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="30aa710a-8ec4-4f4b-b4e4-992867c7bfaf">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>10</Mnozstvi>
+          <Zbyva>10</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="d85504da-db94-446a-a905-bbf67542a2fe">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="41692e9b-0a69-4e31-ab6d-fb78321f078c">
+              <Kod>3777</Kod>
+              <Nazev>Krystal Sanan dezinf. na plísně s vuní 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="7492fe3b-700c-4612-8282-92b1949d46e1">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBSDO050098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="034aefb6-b7a7-42e0-bb50-5b402978a1ff">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>2</Mnozstvi>
+          <Zbyva>2</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="b1da11aa-c137-46fe-a357-d0af00052325">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="2e9ed86a-1983-40cb-95c6-f3676a6f232c">
+              <Kod>1848</Kod>
+              <Nazev>Nádobí Krystal balzám 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="0dc2c063-8742-4b81-84f3-685795604e58">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBNBA050099</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="933fecc6-a741-4295-b1ba-a99ba49976ce">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>54</Mnozstvi>
+          <Zbyva>54</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="7ebb611b-2766-4b9b-b30a-10f12b11c653">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="a718a3ee-3f42-41c7-af65-dc8452c46ef6">
+              <Kod>1446</Kod>
+              <Nazev>Nádobí Krystal Lemongrass 750ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="5664a1c7-8845-4b36-b8f0-00065c4a05ee">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBNAO007598</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="571b7393-931f-4547-8cb5-c1eb2a0586ea">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>5</Mnozstvi>
+          <Zbyva>5</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="603cffe1-6d0b-4717-ac1a-78dcb6231eb7">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="bfc3ae54-765d-41a8-8f2a-aa4641225c56">
+              <Kod>3071</Kod>
+              <Nazev>Písek tekutý Krystal 6kg</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="10f3cc44-d087-4882-be8d-6229c84f785b">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBATP060098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="f8254dd3-2b36-45fe-84be-93502bee5cfd">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>40</Mnozstvi>
+          <Zbyva>40</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="f4069f90-1384-486b-b348-63575502c876">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="466c7b0c-2119-40d1-b5da-708c7047ef12">
+              <Kod>1480</Kod>
+              <Nazev>Písek tekutý Krystal Abrazivní 600g</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="fd4ed187-40a9-40e9-b0d2-2a7a22965dbd">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBATP006095</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="2221e1e6-6595-434a-ba7f-260073dbf344">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>10</Mnozstvi>
+          <Zbyva>10</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="3f838b09-3990-4e6a-bc43-4d82a93a9735">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="9bd5a3e9-530f-4fe6-a9e9-8ef43199c4ca">
+              <Kod>2680</Kod>
+              <Nazev>Tekuté mýdlo 5L Isolda * Antibakteriální *</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="dae6c2de-11e0-4791-9e69-73488396ed7f">
+                  <DodavatelskeOznaceni>
+                    <Kod>VPDRM050098</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="43f67c59-c42c-4ad1-b770-17968f3b967d">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>36</Mnozstvi>
+          <Zbyva>36</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="b04af952-55a8-456c-9624-a5427423c3a5">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="3b5b3516-60dd-4e4f-9861-382f285c3e7c">
+              <Kod>5545</Kod>
+              <Nazev>Vonný olej Krystal Black 750ml </Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="c50eefdb-7e0c-4300-91d1-0b3d138817e3">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBOOB007599</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="0a05edd5-6f24-4e41-8749-141da5f327a1">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>72</Mnozstvi>
+          <Zbyva>72</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="610ffc2c-d11b-43b9-8b89-b93d37aa099d">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="5d781ed0-ff4f-4b2b-b1d8-3c062a72668e">
+              <Kod>5546</Kod>
+              <Nazev>Vonný olej Krystal modrý 750ml </Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="c0d32a28-682b-4e56-af0f-7b8d8c492ecf">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBOOM007599</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="af98ae19-cc6e-44aa-ba80-685cb2653a39">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>72</Mnozstvi>
+          <Zbyva>72</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="7d03a2ce-91a4-4f17-8e41-2c4f15929510">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="572eabba-e80f-4158-b057-008eb0f0ad11">
+              <Kod>4909</Kod>
+              <Nazev>Vonný olej Krystal růžový 750ml </Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="17c9a36e-c1ac-4418-b566-524fb11a441f">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBOOR007599</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="bddc66ac-a218-4a16-b014-b89b63c0d4fd">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>34</Mnozstvi>
+          <Zbyva>34</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="efa43268-f0c4-46ae-a29e-da7af372f7c7">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="09e527c3-abda-4244-9167-e612d4c55427">
+              <Kod>5930</Kod>
+              <Nazev>WC čistič Krystal EKO 750ml</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="bed7f10c-1241-4e82-94db-263b67634729">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBCEZ007598</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="6891e063-bcfa-4030-988d-d4bba9d72dee">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>8</Mnozstvi>
+          <Zbyva>8</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="8897e2b1-dcdb-495a-a434-5e832e184c4b">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="256f2e3e-7b71-4a70-b275-769dc0970c97">
+              <Kod>1977</Kod>
+              <Nazev>WC čistič Krystal kyselý modrý 5L</Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="a58dd291-69a9-4b3e-a016-1c5530f9fa9b">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBCAM050097</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="f3e4e8ab-40e1-4c6b-87c5-fb3f1103a173">
+          <Jednotka>ks</Jednotka>
+          <Mnozstvi>34</Mnozstvi>
+          <Zbyva>34</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="d13eb8a3-3830-40b0-a250-122cd03a37fa">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="491f1630-6963-43b1-b970-aedf243e0537">
+              <Kod>3719</Kod>
+              <Nazev>WC čistič Krystal na keramiku zelený 750ml </Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="b8ddd2fc-bc89-44a8-987c-b6302113dfb6">
+                  <DodavatelskeOznaceni>
+                    <Kod>VBCAZ007596</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+        <PolozkaObjednavkyVydane ObjectName="PolozkaObjednavkyVydane" ObjectType="Object" ID="3ab52b4b-5758-48d7-9a4b-6859099743af">
+          <Jednotka>kan</Jednotka>
+          <Mnozstvi>10</Mnozstvi>
+          <Zbyva>10</Zbyva>
+          <ObsahPolozky ObjectName="ObsahPolozkySArtiklem" ObjectType="Object" ID="6090d3e2-abbf-4fee-bcd1-92a7086857f1">
+            <Artikl ObjectName="Artikl" ObjectType="Object" ID="56a4091b-e8b1-4c65-9c7e-f844613a9411">
+              <Kod>5816</Kod>
+              <Nazev>Zpěnovací mýdlo Isolda Violet 5L </Nazev>
+              <Dodavatele>
+                <HlavniDodavatel ObjectName="ArtiklDodavatel" ObjectType="Object" ID="ada2ecee-cf63-4d92-a318-34a6efd10279">
+                  <DodavatelskeOznaceni>
+                    <Kod>VKIMZ050097</Kod>
+                    <Nazev />
+                  </DodavatelskeOznaceni>
+                </HlavniDodavatel>
+              </Dodavatele>
+            </Artikl>
+          </ObsahPolozky>
+        </PolozkaObjednavkyVydane>
+      </Polozky>
+    </ObjednavkaVydana>
+  </ObjednavkaVydanaList>
+</S5Data>
