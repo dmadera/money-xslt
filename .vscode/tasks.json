@@ -67,6 +67,18 @@
             ],
             "dependsOn": [],
             "problemMatcher": []
+        },
+        {
+            "label": "deploy",
+            "command": "smbclient",
+            "args": [
+                "//192.168.5.82/remote",
+                "-U","dmadera",
+                "--pw-nt-hash", "33B5B9520091C7708E7EBDFE989BBF29",
+                "-c",
+                "prompt OFF ; cd MoneyXslt ; lcd ${workspaceFolder} ; mput *.xslt"
+            ],
+            "problemMatcher": []
         }
     ]
 }
