@@ -1,10 +1,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output omit-xml-declaration="no" indent="yes" />
-
+    
     <xsl:template match="S5Data/ObjednavkaVydanaList/ObjednavkaVydana">
         <xsl:processing-instruction name="mso-application">progid="Excel.Sheet"</xsl:processing-instruction>
         <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
-            xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+                  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
             <Styles>
                 <Style ss:ID="header" ss:Name="Normal">
                     <Font ss:FontName="Verdana" ss:Bold="1" />
@@ -12,7 +12,10 @@
             </Styles>
             <Worksheet ss:Name="List1">
                 <Table>
-                    <Column ss:Index="1" ss:Width="80" />
+					<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="80" />
+                    <Column ss:Index="2" ss:AutoFitWidth="1" ss:Width="300" />
+					<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="50" />
+					<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="50" />
                     <Row ss:Index="1">
                         <Cell ss:Index="1" ss:StyleID="header">
                             <Data ss:Type="String">Item Code</Data>
@@ -37,7 +40,9 @@
                                 </Data>
                             </Cell>
                             <Cell ss:Index="2">
-                                <Data ss:Type="String"></Data>
+                                <Data ss:Type="String">
+                                    <xsl:value-of select="ObsahPolozky/Artikl/Kod" />: <xsl:value-of select="Nazev" />
+                                </Data>
                             </Cell>
                             <Cell ss:Index="3">
                                 <Data ss:Type="String">KS</Data>
